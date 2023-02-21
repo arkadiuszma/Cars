@@ -56,6 +56,6 @@ public class Main {
         Car bmwE46Manual = new Car(bmw, false, business, "medium", List.of(dimension6, dimension2));
         Car peugeot206Automatic = new Car(peugeot, true, cargo, "standard", List.of(dimension8, dimension1));
         List<Car> cars = Arrays.asList(fiatBravo, fordMustang, hyundaiGetz, peugeot206Automatic, peugeot206, chevroletCruze, nissanQashqai, toyotaCorolla, skodaOctavia, audiA3, audiA3Manual, audiA3Taxi, bmwE46Manual, bmwE46, bmwE46Taxi);
-        Car.getFilteredCars(cars, brandToFilter, trunkCapacityFilter);
+        Car.getFilteredMarketsOfCars(cars, brandToFilter, trunkCapacityFilter);
     }
 }
